@@ -1,129 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TAR - Tariff Asset Reserve | A safe haven token in the era of tariffs" />
   <title>TAR Token - Tariff Asset Reserve</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="tar-logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(to right, #f9f9f9, #d2ecf3);
-      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    header {
-      background: #001f3f;
-      color: white;
-      padding: 2rem;
-      text-align: center;
+    .fade-in {
+      animation: fadeIn ease 2s;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
-    }
-    .hero {
-      text-align: center;
-      padding: 3rem 1rem;
-    }
-    .hero img {
-      max-width: 250px;
-      margin-bottom: 1.5rem;
-    }
-    .hero h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.1rem;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    .buttons {
-      margin-top: 2rem;
-    }
-    .buttons a {
-      background: #0074D9;
-      color: white;
-      text-decoration: none;
-      padding: 0.8rem 1.5rem;
-      border-radius: 8px;
-      margin: 0.5rem;
-      display: inline-block;
-      transition: background 0.3s ease;
-    }
-    .buttons a:hover {
-      background: #005fa3;
-    }
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2rem;
-      padding: 3rem 1rem;
-    }
-    .feature-card {
-      background: white;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      max-width: 300px;
-      text-align: center;
-    }
-    .feature-card img {
-      max-width: 80px;
-      margin-bottom: 1rem;
-    }
-    footer {
-      background: #001f3f;
-      color: white;
-      text-align: center;
-      padding: 1.5rem;
+    @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
     }
   </style>
 </head>
-<body>
-  <header>
-    <h1>$TAR Token</h1>
-    <p>Tariff Asset Reserve - A Safe Haven During Trade Wars</p>
-  </header>
 
-  <section class="hero">
-    <img src="https://i.imgur.com/KOQklkC.png" alt="Trump Meme Coin" />
-    <h2>The Digital Bunker for Tariff Survivors 🛡️💰</h2>
-    <p>Inspired by the legendary Trump-era trade policies, TAR Token is your satirical shelter from inflation, recession, and the never-ending meme coin madness. Built on Solana for lightning-fast laughs and solid tech.</p>
-    <div class="buttons">
-      <a href="https://x.com/TAR_Reserve" target="_blank">Follow on Twitter</a>
-      <a href="https://pump.fun" target="_blank">Buy on Pump.fun</a>
-      <a href="https://tariffassetreserve.github.io/TAR_Token/TAR_Whitepaper_EN.pdf" target="_blank">Read Whitepaper</a>
+<body class="bg-gray-900 text-white">
+  <!-- Hero Section -->
+  <section class="py-20 px-4 text-center fade-in">
+    <h1 class="text-5xl font-extrabold mb-4 text-yellow-400">TAR - Tariff Asset Reserve</h1>
+    <p class="text-xl mb-8">The safe haven token for turbulent tariff times! <br><span class="text-gray-400 italic">Inspired by the spirit of tariffs and Trump.</span></p>
+    <div class="flex justify-center">
+      <img src="tar-logo.png" alt="TAR Token Logo" class="w-48 h-48 rounded-full shadow-lg border-4 border-yellow-400">
+    </div>
+    <div class="mt-8 space-x-4">
+      <a href="https://x.com/TAR_Reserve" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded shadow-md transition">Follow on X</a>
+      <a href="https://pump.fun" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow-md transition">Buy on pump.fun</a>
+      <a href="TAR_Whitepaper_EN.pdf" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded shadow-md transition">Read Whitepaper</a>
     </div>
   </section>
 
-  <section class="features">
-    <div class="feature-card">
-      <img src="https://i.imgur.com/ghqb8yx.png" alt="Fast" />
-      <h3>Built on Solana</h3>
-      <p>Super fast, super cheap, and super scalable. No nonsense.</p>
-    </div>
-    <div class="feature-card">
-      <img src="https://i.imgur.com/AXwAa8Z.png" alt="Meme Shield" />
-      <h3>Meme-Backed Reserve</h3>
-      <p>Powered by satire. Fortified by freedom. And...taxes?</p>
-    </div>
-    <div class="feature-card">
-      <img src="https://i.imgur.com/y8U73pF.png" alt="Community" />
-      <h3>Community-Led</h3>
-      <p>No VCs. No insiders. Just true degens united under the tariff dome.</p>
+  <!-- Why TAR Section -->
+  <section class="bg-gray-800 py-16 px-6 text-center fade-in">
+    <h2 class="text-3xl font-bold text-yellow-300 mb-6">Why TAR?</h2>
+    <p class="max-w-3xl mx-auto text-lg text-gray-300 mb-8">
+      TAR is a secure digital asset designed for uncertain times of increasing global tariffs. Inspired by "Make Trade Great Again," TAR is the smart digital asset choice during economic instability.
+    </p>
+    <div class="flex flex-wrap justify-center gap-6">
+      <div class="bg-gray-700 p-6 rounded-2xl w-64 shadow-lg">
+        <h3 class="text-xl font-semibold text-yellow-400 mb-2">Inflation Hedge</h3>
+        <p class="text-sm text-gray-300">Preserve value amidst rising tariffs and money printing.</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-2xl w-64 shadow-lg">
+        <h3 class="text-xl font-semibold text-yellow-400 mb-2">Strong Meme Origin</h3>
+        <p class="text-sm text-gray-300">Powered by the image of Trump & tariffs — built to go viral.</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-2xl w-64 shadow-lg">
+        <h3 class="text-xl font-semibold text-yellow-400 mb-2">Scarcity Factor</h3>
+        <p class="text-sm text-gray-300">Limited supply. Big upside for early adopters.</p>
+      </div>
     </div>
   </section>
 
-  <footer>
-    <p>Made with 🤖 + 🇺🇸 vibes. 100% decentralized & proudly hilarious.</p>
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-6 text-center text-gray-400 text-sm">
+    © 2025 TAR Token | Tariff Asset Reserve. Built with ❤️ for the memetic revolution.
   </footer>
 </body>
+
 </html>
